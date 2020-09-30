@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Cableado básico | Introducción </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="generator" content="eXeLearning  - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-15"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Introducción</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Introducción</a></li>
+   <li><a href="modos_de_comunicacin.html" class="no-ch">Modos de comunicación</a></li>
+   <li><a href="sistemas_asncronos.html" class="no-ch">Sistemas asíncronos</a></li>
+   <li><a href="sistemas_sncronos.html" class="no-ch">Sistemas síncronos</a></li>
+   <li><a href="deteccin_de_errores.html" class="no-ch">Detección de errores</a></li>
+   <li><a href="caractersticas_de_las_transmisiones.html" class="no-ch">Características de las transmisiones</a></li>
+   <li><a href="modelo_osi.html" class="no-ch">Modelo OSI</a></li>
+   <li><a href="modelo_tcpip.html" class="no-ch">Modelo TCP/IP</a></li>
+   <li><a href="teora_de_la_seal.html" class="no-ch">Teoría de la señal</a></li>
+   <li><a href="perturbaciones_en_las_transmisiones.html" class="no-ch">Perturbaciones en las transmisiones</a></li>
+   <li><a href="shannon_y_nyquist.html" class="no-ch">Shannon y Nyquist</a></li>
+   <li id="active"><a href="cableado_bsico.html" class="active no-ch">Cableado básico</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="shannon_y_nyquist.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Cableado básico</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id12">
+<div class="iDevice emphasis0" >
+<div id="ta12_52_2" class="block iDevice_content">
+<div class="exe-text"><h1>Par trenzado (twisted pair)</h1>
+<p>Son la solución más económica para la transmisión de datos. Pueden ser apantallados (STP, shielded twisted pair) o sin pantalla (UTP, unshielded tiwsted pair).</p>
+<p>Los pares trenzados se hacen mediante dos conductores idénticos aislados, que se trenzan juntos a lo largo de toda su longitud con un número específico de vueltas por metro, normalmente cuarenta. Los cables se trenzan par reducir el efecto de la inducción electromagnética.</p>
+<p>Cuando se usa el modo balanceado, los dos cables llevan al misma señal pero de signo opuesto y el destino detecta la diferencia entre los dos. Esto se llama modo de transmisión diferencial. Las fuentes de ruido introducen señales en los cables mediante inducción eléctrica o magnética y los campos normalmente se acoplan de la misma manera en los dos cables. El ruido se produce por tanto en un modo común que se cancela en el receptor cuando se extrae la diferencia de señal.</p>
+<p>Los cables se han clasificado tradicionalmente en categorías, siendo los más comunes la Categoría 3 (hasta 16 MHz, para Ethernet 10BASE-T ), Categoría 5 (hasta 100 MHz, para Ethernet 100BASE-TX) y Categoría 6, que pueden alcanzar 500 MHz y se usan para Ethernet 10GBASE-T</p>
+<h1>Cable coaxial</h1>
+<p><img src="RG-59.jpg" alt="" width="705" height="493" /></p>
+<ul>
+<li>A: Plástico exterior protector</li>
+<li>B: Malla de cobre</li>
+<li>C: Dieléctrico interior</li>
+<li>D: Activo de cobre</li>
+</ul>
+<p>El cable coaxial se usa para lineas de transmisión de radiofrecuencia. Sus aplicaciones principales hoy en día son para las antenas de los emisores y receptores de radio, algunos casos antiguos de redes de ordenadores y cables de distribución de TV. </p>
+<p>Una ventaja de los cables coaxiales sobre otro tipo de líneas de transmisión es que en un cable coaxial ideal el camo electromagnético existe sólo entre los conductores externo e interno. Esto permite que se pueda instalar el cable junto a objetos o canalizaciones metálicas sin las pérdidas de potencia que ocurren en otros tipos de líneas de transmisión. Además, por su construcción protegen de interferencias electromagnéticas externas.</p>
+<p></p>
+<h1>Fibra óptica</h1>
+<p>Una fibra óptica es una fibra flexible, transparente, hecha de cristal de gran calidad o plástico, algo más fina que un cabello humano.</p>
+<p>Las capacidades de los cables de fibra óptica satisfacen todos los requerimientos actuales de comunicación de datos, permitiendo tasas en el rango de los Gbps. Las actuales rondan los 10 Gbps.</p>
+<ul>
+<li>Fibra monomodo</li>
+<li>Fibra multimodo</li>
+</ul>
+<p>La diferencia fundamental entre la monomodo y la multimodo es que la multimodo tiene un núcleo mucho mayor, generalmente entre 50 y 100 micrómetros: mayor que la longitud de onda de la luz que transporta. Dado que el núcleo es mayor tiene capacidad para acoger más haces de luz que la monomodo. En la práctica esto simplifica también el fusionado y permite el uso de electrónica de más bajo coste, como LEDs y Láseres baratos (entre 850 y 1300 nm)</p>
+<p>La fibra monomodo necesita de láseres más caros (entre 1310 y 1550 nanómetros). La distancia que recorre la luz en la fibra monomodo es mayor. En la multimodo hay más de un modo de propagación que produce distorsión modal, limitando la distancia máxima.</p>
+<p>Las fibras monomodos se usan sobre todo en investigación científica ya que al usar un único modo de propagación permite que se pueda enfocar mucho más  precisamente.</p>
+<p>Normalmente se puede distinguir el tipo de fibra por su camisa protectora. El estándar TIA-598C recomienda que en usos civiles se emplee una camisa amarilla para la fibra monomodo y una de color anaranjado o agua para la multimodo.</p>
+<p><video width="320" height="240" controls="controls" class="mediaelement">
+<source src="Fiber-engineerguy.webm" type="video/webm" /></video></p></div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="shannon_y_nyquist.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_simplepoint_js.js"></script></body></html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Sistemas síncronos | Introducción </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="generator" content="eXeLearning  - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Introducción</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Introducción</a></li>
+   <li><a href="modos_de_comunicacin.html" class="no-ch">Modos de comunicación</a></li>
+   <li><a href="sistemas_asncronos.html" class="no-ch">Sistemas asíncronos</a></li>
+   <li id="active"><a href="sistemas_sncronos.html" class="active no-ch">Sistemas síncronos</a></li>
+   <li><a href="deteccin_de_errores.html" class="no-ch">Detección de errores</a></li>
+   <li><a href="caractersticas_de_las_transmisiones.html" class="no-ch">Características de las transmisiones</a></li>
+   <li><a href="modelo_osi.html" class="no-ch">Modelo OSI</a></li>
+   <li><a href="modelo_tcpip.html" class="no-ch">Modelo TCP/IP</a></li>
+   <li><a href="teora_de_la_seal.html" class="no-ch">Teoría de la señal</a></li>
+   <li><a href="perturbaciones_en_las_transmisiones.html" class="no-ch">Perturbaciones en las transmisiones</a></li>
+   <li><a href="shannon_y_nyquist.html" class="no-ch">Shannon y Nyquist</a></li>
+   <li><a href="cableado_bsico.html" class="no-ch">Cableado básico</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="sistemas_asncronos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="deteccin_de_errores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Sistemas síncronos</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id4">
+<div class="iDevice emphasis0" >
+<div id="ta4_48_2" class="block iDevice_content">
+<div class="exe-text"><p>En los sistemas síncronos el receptor se sincroniza con los pulsos de reloj del transmisor, que se incorporan de algún modo al flujo de datos.</p>
+<p>Esto habilita al receptor para mantener su sincronización a lo largo de grandes mensajes, que típicamente podrían ser de hasta 4500 bytes (36000 bits).</p>
+<p>De este modo se pueden transmitir eficientemente grandes tramas a tasas muy altas de datos.</p>
+<p>El sistema síncrono empaqueta muchos caracteres juntos y los envía como un flujo continuo, llamado paquete o trama.</p>
+<p><img src="frame.png" alt="" width="558" height="116" /></p>
+<ul>
+<li>Preámbulo: Formado por uno o más bytes enviados para que la unidad receptora se sincronice con la trama.</li>
+<li>SFD: El comienzo de la trama delimita la señal para avisar de que comienza la trama</li>
+<li>Destino: La dirección a la que se envía la trama</li>
+<li>Origen: La dirección en la que se origina la trama</li>
+<li>Longitud: El número de bytes en el campo de datos</li>
+<li>Datos: El mensaje propiamente dicho</li>
+<li>FCS: Secuencia de comprobación de la trama, para detección de errores</li>
+</ul></div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="sistemas_asncronos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="deteccin_de_errores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_simplepoint_js.js"></script></body></html>
