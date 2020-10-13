@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Puertos TCP | TCP/IP </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="generator" content="eXeLearning  - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-1"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">TCP/IP</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">TCP/IP</a></li>
+   <li id="active"><a href="puertos_tcp.html" class="active no-ch">Puertos TCP</a></li>
+   <li><a href="cabecera_ipv4.html" class="no-ch">Cabecera IPv4</a></li>
+   <li><a href="direccionamiento.html" class="no-ch">Direccionamiento</a></li>
+   <li><a href="resolucin_y_asignacin_de_direcciones.html" class="no-ch">Resolución y asignación de direcciones</a></li>
+   <li><a href="ipv6.html" class="no-ch">IPv6</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cabecera_ipv4.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Puertos TCP</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id20">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Puertos TCP</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta20_48_2" class="block iDevice_content">
+<div class="exe-text"><p>TCP usa <a href="https://es.wikipedia.org/wiki/Puerto_de_red" target="_blank" rel="noopener">números de puertos</a> para identificar las aplicaciones que envían y reciben en los dispositivos finales de una comunicación (o <a href="https://es.wikipedia.org/wiki/Socket_de_Internet" target="_blank" rel="noopener">socket</a>). Cada lado de una conexión TCP tiene asociado un número de puerto configurado por 16 bits sin signo (0-65535) reservados por la aplicación que envía o que recibe los datos.</p>
+<p>Los paquetes de datos TCP que llegan se identifican como pertenecientes a una conexión TCP por su socket, es decir, por la combinación de la dirección de origen, puerto de origen, dirección de destino y el puerto de destino. De este modo un servidor puede proporcionar datos a distintos clientes de forma simultánea siempre y cuando los clientes se preocupen de iniciar las conexiones simultáneas a un puerto de destino desde distintos puertos de origen.</p>
+<p>Los puertos se dividen en tres categorías: bien-conocidos, registrados y dinámicos/privados. Los puertos bien conocidos los asigna la <a href="https://es.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority" target="_blank" rel="noopener">IANA</a>  y los usan normalmente procesos de root que se ejecutan a nivel del sistema operativo. Aplicaciones bien conocidas que funcionan como servidor que se mantienen a la escucha esperando conexiones usan estos puertos. Algunos ejemplos son:</p>
+<ul>
+<li>FTP (20 y 21)</li>
+<li>SSH (22)</li>
+<li>Telnet (23)</li>
+<li>SMTP (25)</li>
+<li>SSL (443)</li>
+<li>HTTP (80)</li>
+</ul>
+<p>Los puertos registrados los usan normalmente las aplicaciones de usuario y son <a href="https://es.wikipedia.org/wiki/Puerto_ef%C3%ADmero" target="_blank" rel="noopener">puertos de origen efímeros</a> para contactar con servidores, pero también se pueden usar para identificar algunos servicios de terceros.</p>
+<p></p>
+<p>Los puertos dinámicos/privados los pueden usar también las aplicaciones de usuario, pero son muy poco frecuentes.  No contienen ningún significado aparte de lo que haga la conexión de la aplicación.</p>
+<p></p>
+<h4>Puertos privilegiados</h4>
+<p>Por debajo de 1000</p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cabecera_ipv4.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_simplepoint_js.js"></script></body></html>

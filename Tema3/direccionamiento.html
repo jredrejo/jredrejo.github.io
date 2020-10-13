@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Direccionamiento | TCP/IP </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="generator" content="eXeLearning  - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-16"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">TCP/IP</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">TCP/IP</a></li>
+   <li><a href="puertos_tcp.html" class="no-ch">Puertos TCP</a></li>
+   <li><a href="cabecera_ipv4.html" class="no-ch">Cabecera IPv4</a></li>
+   <li id="active"><a href="direccionamiento.html" class="active no-ch">Direccionamiento</a></li>
+   <li><a href="resolucin_y_asignacin_de_direcciones.html" class="no-ch">Resolución y asignación de direcciones</a></li>
+   <li><a href="ipv6.html" class="no-ch">IPv6</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="cabecera_ipv4.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resolucin_y_asignacin_de_direcciones.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Direccionamiento</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id22">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Direccionamiento IP</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta22_50_2" class="block iDevice_content">
+<div class="exe-text"><h4>Calcular direcciones posibles para IPv4</h4>
+<p>Su limitación provocó el desarrollo de IPv6 en los 90s, que ha estado en uso comercial desde 2006.</p>
+<p></p>
+<p></p>
+<h4>Formato de una dirección IPv4</h4>
+<p>Una dirección IPv4 se divide en dos partes: el identificador de la red que es el valor más significativo de la dirección y el identificador de  host, que es el resto de la dirección.</p>
+<p><em><strong>Uso de la máscara de red</strong></em></p>
+<p>Esta tabla ilustra el esquema de direccionamiento original de IPv4:</p>
+<table border="1" style="width: 99.8829%; height: 133px;">
+<tbody>
+<tr style="height: 38px;">
+<td style="width: 14.2857%; text-align: center; height: 38px;"><span style="font-size: 10pt;"><strong>Clase</strong></span></td>
+<td style="width: 14.2857%; text-align: center; height: 38px;"><span style="font-size: 10pt;"><strong>Bits iniciales</strong></span></td>
+<td style="width: 14.2857%; text-align: center; height: 38px;"><span style="font-size: 10pt;"><strong>Número de bits para la red</strong></span></td>
+<td style="width: 14.2857%; text-align: center; height: 38px;"><span style="font-size: 10pt;"><strong>Resto del número de bits</strong></span></td>
+<td style="width: 14.2857%; text-align: center; height: 38px;"><span style="font-size: 10pt;"><strong>Número de redes</strong></span></td>
+<td style="width: 14.2857%; text-align: center; height: 38px;"><span style="font-size: 10pt;"><strong>Direcciones por red</strong></span></td>
+<td style="width: 7.14285%; text-align: center; height: 38px;"><span style="font-size: 10pt;"><strong>Dirección inicial</strong></span></td>
+<td style="width: 7.14285%; text-align: center; height: 38px;"><span style="font-size: 10pt;"><strong>Dirección final</strong></span></td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 14.2857%; height: 19px;">Clase A</td>
+<td style="width: 14.2857%; height: 19px;">0</td>
+<td style="width: 14.2857%; height: 19px;">8</td>
+<td style="width: 14.2857%; height: 19px;">24</td>
+<td style="width: 14.2857%; height: 19px;">128</td>
+<td style="width: 14.2857%; height: 19px;">16777216</td>
+<td style="width: 7.14285%; height: 19px;">0.0.0.0</td>
+<td style="width: 7.14285%; height: 19px;">127.255.255.255</td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 14.2857%; height: 19px;">Clase B</td>
+<td style="width: 14.2857%; height: 19px;">10</td>
+<td style="width: 14.2857%; height: 19px;">16</td>
+<td style="width: 14.2857%; height: 19px;">16</td>
+<td style="width: 14.2857%; height: 19px;">16384</td>
+<td style="width: 14.2857%; height: 19px;">65536</td>
+<td style="width: 7.14285%; height: 19px;">128.0.0.0</td>
+<td style="width: 7.14285%; height: 19px;">191.255.255.255</td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 14.2857%; height: 19px;">Clase C</td>
+<td style="width: 14.2857%; height: 19px;">110</td>
+<td style="width: 14.2857%; height: 19px;">24</td>
+<td style="width: 14.2857%; height: 19px;">8</td>
+<td style="width: 14.2857%; height: 19px;">2097152</td>
+<td style="width: 14.2857%; height: 19px;">256</td>
+<td style="width: 7.14285%; height: 19px;">192.0.0.0</td>
+<td style="width: 7.14285%; height: 19px;">223.255.255.255</td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 14.2857%; height: 19px;">Clase D (multicast)</td>
+<td style="width: 14.2857%; height: 19px;">1110</td>
+<td style="width: 14.2857%; height: 19px;">Indefinido</td>
+<td style="width: 14.2857%; height: 19px;">Indefinido</td>
+<td style="width: 14.2857%; height: 19px;">Indefinido</td>
+<td style="width: 14.2857%; height: 19px;">Indefinido</td>
+<td style="width: 7.14285%; height: 19px;">224.0.0.0</td>
+<td style="width: 7.14285%; height: 19px;">239.255.255.255</td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 14.2857%; height: 19px;">Clase E (reservada)</td>
+<td style="width: 14.2857%; height: 19px;">1111</td>
+<td style="width: 14.2857%; height: 19px;">Indefinido</td>
+<td style="width: 14.2857%; height: 19px;">Indefinido</td>
+<td style="width: 14.2857%; height: 19px;">Indefinido</td>
+<td style="width: 14.2857%; height: 19px;">Indefinido</td>
+<td style="width: 7.14285%; height: 19px;">240.0.0.0</td>
+<td style="width: 7.14285%; height: 19px;">255.255.255.255</td>
+</tr>
+</tbody>
+</table>
+<h4>Reservas de direcciones de IPv4</h4>
+<p>IPv4 reserva bloques de direcciones para redes privadas (~18 millones de direcciones) y direcciones de multicast (~ 270 millones de direcciones)</p>
+<p>Hay varias secciones con significado especial. Aquí se muestra un extracto de la norma de IPv4:</p>
+<table class="wikitable"><caption>Bloques de direcciones especiales</caption>
+<tbody>
+<tr>
+<th>Bloque de direcciones</th>
+<th>Rango</th>
+<th>Número de direcciones</th>
+<th>Alcance</th>
+<th>Descripción</th>
+</tr>
+<tr>
+<td>0.0.0.0/8</td>
+<td>0.0.0.0–0.255.255.255</td>
+<td align="right">16.777.216</td>
+<td>Software</td>
+<td>Red actual<sup id="cite_ref-IPv4_rfc6890_3-0" class="reference separada"></sup> (solo válido como dirección de origen).</td>
+</tr>
+<tr>
+<td>10.0.0.0/8</td>
+<td>10.0.0.0–10.255.255.255</td>
+<td align="right">16.777.216</td>
+<td>Red privada</td>
+<td>Utilizado para las comunicaciones locales dentro de una<span> </span><a href="https://es.wikipedia.org/wiki/Red_privada" title="Red privada">red privada</a>.<sup id="cite_ref-IPv4_rfc1918_4-0" class="reference separada"></sup></td>
+</tr>
+<tr>
+<td>100.64.0.0/10</td>
+<td>100.64.0.0–100.127.255.255</td>
+<td align="right">4.194.304</td>
+<td>Red privada</td>
+<td>Espacio de direcciones compartido<sup id="cite_ref-IPv4_rfc6598_5-0" class="reference separada"></sup> para las comunicaciones entre un proveedor de servicios y sus suscriptores cuando se utiliza un NAT de nivel de operador.</td>
+</tr>
+<tr>
+<td>127.0.0.0/8</td>
+<td>127.0.0.0–127.255.255.255</td>
+<td align="right">16.777.216</td>
+<td>Host</td>
+<td>Se utiliza para las<span> </span><a href="https://es.wikipedia.org/wiki/Loopback" title="Loopback">direcciones de loopback</a>.<sup id="cite_ref-IPv4_rfc6890_3-1" class="reference separada"></sup></td>
+</tr>
+<tr>
+<td>169.254.0.0/16</td>
+<td>169.254.0.0–169.254.255.255</td>
+<td align="right">65.536</td>
+<td>Subred</td>
+<td>Se utiliza para las<span> </span><a href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_de_Enlace-Local" title="Dirección de Enlace-Local">direcciones de enlace loca</a>l<sup id="cite_ref-IPv4_rfc3927_6-0" class="reference separada"></sup><span> </span>entre dos hosts en un solo enlace cuando de otra manera no se especifica una dirección IP, como normalmente se habría recuperado de un servidor<span> </span><a href="https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host" title="Protocolo de configuración dinámica de host">DHCP</a>.</td>
+</tr>
+<tr>
+<td>172.16.0.0/12</td>
+<td>172.16.0.0–172.31.255.255</td>
+<td align="right">1.048.576</td>
+<td>Red privada</td>
+<td>Used for local communications within a private network.<sup id="cite_ref-IPv4_rfc1918_4-1" class="reference separada"></sup></td>
+</tr>
+<tr>
+<td>192.0.0.0/24</td>
+<td>192.0.0.0–192.0.0.255</td>
+<td align="right">256</td>
+<td>Red privada</td>
+<td>IETF Protocol Assignments.<sup id="cite_ref-IPv4_rfc6890_3-2" class="reference separada"></sup></td>
+</tr>
+<tr>
+<td>192.0.2.0/24</td>
+<td>192.0.2.0–192.0.2.255</td>
+<td align="right">256</td>
+<td>Documentación</td>
+<td>Assigned as TEST-NET-1, documentation and examples.<sup id="cite_ref-IPv4_rfc5737_7-0" class="reference separada"></sup></td>
+</tr>
+<tr>
+<td>192.88.99.0/24</td>
+<td>192.88.99.0–192.88.99.255</td>
+<td align="right">256</td>
+<td>Internet</td>
+<td>Reservada. <sup id="cite_ref-IPv4_rfc7526_8-0" class="reference separada"></sup>Previamente usado para<span> </span><i>relay</i><span> </span><a href="https://es.wikipedia.org/wiki/6to4" title="6to4">IPv6 a IPv4</a>. <sup id="cite_ref-IPv4_rfc3068_9-0" class="reference separada"></sup>(incluido el bloque de direcciones<span> </span><a href="https://es.wikipedia.org/wiki/IPv6" title="IPv6">IPv6</a><span> </span><a href="https://es.wikipedia.org/w/index.php?title=IPv6_Address&amp;action=edit&amp;redlink=1" class="new" title="IPv6 Address (aún no redactado)">2002::/16</a>).</td>
+</tr>
+<tr>
+<td>192.168.0.0/16</td>
+<td>192.168.0.0–192.168.255.255</td>
+<td align="right">65.536</td>
+<td>Red privada</td>
+<td>Utilizado para las comunicaciones locales dentro de una red privada.<sup id="cite_ref-IPv4_rfc1918_4-2" class="reference separada"></sup></td>
+</tr>
+<tr>
+<td>198.18.0.0/15</td>
+<td>198.18.0.0–198.19.255.255</td>
+<td align="right">131.072</td>
+<td>Red privada</td>
+<td>Se utiliza para pruebas de referencia de comunicaciones entre dos subredes separadas.<sup id="cite_ref-IPv4_rfc2544_10-0" class="reference separada"></sup></td>
+</tr>
+<tr>
+<td>198.51.100.0/24</td>
+<td>198.51.100.0–198.51.100.255</td>
+<td align="right">256</td>
+<td>Documentación</td>
+<td>Asignado como TEST-NET-2, documentación y ejemplos.<sup id="cite_ref-IPv4_rfc5737_7-1" class="reference separada"></sup></td>
+</tr>
+<tr>
+<td>203.0.113.0/24</td>
+<td>203.0.113.0–203.0.113.255</td>
+<td align="right">256</td>
+<td>Documentación</td>
+<td>Asignado como TEST-NET-3, documentación y ejemplos.<sup id="cite_ref-IPv4_rfc5737_7-2" class="reference separada"></sup></td>
+</tr>
+<tr>
+<td>224.0.0.0/4</td>
+<td>224.0.0.0–239.255.255.255</td>
+<td align="right">268.435.456</td>
+<td>Internet</td>
+<td>Usado para<span> </span><a href="https://es.wikipedia.org/wiki/Multidifusi%C3%B3n" title="Multidifusión">Multicast IP</a>.<sup id="cite_ref-IPv4_rfc5771_11-0" class="reference separada"></sup>​ (previamente una red clase D).</td>
+</tr>
+<tr>
+<td>240.0.0.0/4</td>
+<td>240.0.0.0–255.255.255.254</td>
+<td align="right">268.435.456</td>
+<td>Internet</td>
+<td>Reservada para usos futuros. <sup id="cite_ref-IPv4_rfc3232_12-0" class="reference separada"></sup>(anteriormente una red clase E).</td>
+</tr>
+<tr>
+<td>255.255.255.255/32</td>
+<td>255.255.255.255</td>
+<td align="right">1</td>
+<td>Subred</td>
+<td>Reservada para destinos multidifusión.<sup id="cite_ref-IPv4_rfc6890_3-3" class="reference separada"></sup><sup id="cite_ref-IPv4_rfc919_13-0" class="reference separada"></sup></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="cabecera_ipv4.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resolucin_y_asignacin_de_direcciones.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_simplepoint_js.js"></script></body></html>
