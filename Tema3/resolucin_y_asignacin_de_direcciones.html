@@ -36,6 +36,50 @@
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">Resolución y asignación de direcciones</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id23">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Resolución y asignación de direcciones</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta23_48_2" class="block iDevice_content">
+<div class="exe-text"><h1>DNS</h1>
+<p>En Internet se usa normalmente el nombre del host, como <a href="http://www.example.com">www.example.com</a> , no su dirección IP que es lo que usan los interfaces de red y routers. El uso de nombres de dominio necesita de una traducción, que se llama <em>resolución</em> (<em>resolving</em>) para obtener las direcciones y viceversa. Es algo similar a buscar un número de teléfono en una agenda usando el nombre de la persona.</p>
+<p>La traducción entre las direcciones y los nombres se hace mediante el DNS (Sistema de nombres de dominio) que es un sistema jerárquico y distribuido que permite delegar la búsqueda de los nombres a otros servidores de DNS.</p>
+<h3>Servidores raíz</h3>
+<h1></h1>
+<h1>DHCP</h1>
+<p>DHCP (Dynamic Host Configuration Protocol) es un protocolo estándar que se usa en las redes IP para configurar de forma dinámica las direcciones IP y toda la información necesaria para el acceso a Internet. </p>
+<p>DHCP permite que los ordenadores y otros dispositivos reciban una dirección IP automáticamente desde un servidor DHCP centralizado, con lo que se evita que el administrador de la red o el usuario tenga que configurar manualmente cada dispositivo.</p>
+<p>Los servidores DHCP gestionan una base de datos de las direcciones IP disponibles, además de otros datos, como la ruta predeterminada, direcciones de servidores de DNS, etc. Mediante el protocolo DHCP se puede elegir configurar automáticamente algunos de estos datos y dejar otros para la configuración manual.</p>
+<p>Normalmente las direcciones que se asignan son válidas durante un intervalo de tiempo limitado. Son los dispositivos los que tienen que renovar su dirección antes de que expire el intervalo y deben dejar de usar la dirección cuando haya expirado si no la han podido renovar.</p>
+<h1></h1>
+<h1>NAT</h1>
+<p>NAT (Network Address Translation) es un protocolo de red para IPv4 que permite que muchos dispositivos se conecten a la red pública de Internet usando la misma dirección IPv4. NAT se diseñó originalmente como un intento de conservar direcciones IPv4. NAT modifica la dirección IP de la cabecera IPv4 mientras el paquete está moviéndose por los routers de Internet. Esto tiene algunos inconvenientes y hace que se tenga que ser muy cuidadoso al implementarlo. En particular, todos los tipos de NAT rompen la idea original de que IP sea una conectividad punto a punto a través de internet y hace difícil que los sistemas detrás de un NAT puedan recibir conexiones entrantes. A causa de ello se han inventado sistemas y protocolos nuevos para solventar estos inconvenientes. Actualmente NAT está implementado como una característica fundamental en los routers que proporcionan los ISP para acceder a Internet en los hogares y oficinas.</p>
+<p></p>
+<p></p>
+<h1>VPN</h1>
+<p>Una red privada virtual es una tecnología que permite una extensión segura de la red local sobre una red pública como Internet.</p>
+<p>Permite que el ordenador envíe y reciba datos sobre redes compartidas o públicas como si fuera una red privada, con toda la funcionalidad, seguridad y políticas de gestión de la red privada. Esto se realiza estableciendo una conexión virtual punto a punto mediante el uso de a) conexiones dedicadas, b) cifrado o c) la combinación de ambos métodos.</p>
+<p>La conexión VPN a través de Internet es técnicamente una unión de dos WAN (redes de área extensa) entre dos lugares, pero al usuario le parece como si fuera un enlace privado, de ahí el nombre.</p>
+<h2>Tipos de VPN</h2>
+<ul>
+<li><strong>VPN de acceso remoto</strong>: Los usuarios se conectan con la empresa desde lugares remotos como sus domicilios, hoteles, etc. a través de Internet, con lo que conectan a la red local de la empresa. </li>
+<li><strong>VPN punto a  punto</strong>: Se usa para conectar oficinas remotas con la sede central de la organizción. Hay un servidor VPN conectado permanentemente a Internet y acepta las conexiones de sitios autorizados estableciendo el tunel VPN.
+<ul>
+<li>Tunneling: consiste en encapsular un protocolo de red sobre otro para crear un túnel dentro de una red de computadoras. El túnel se define en los puntos extremos y se suele usar ssh para ello.</li>
+</ul>
+</li>
+<li><strong>VPN sobre LAN</strong>: Es una variante del acceso remoto pero se hace dentro de la misma red de la empresa en entornos delicados como sobre WIFI y para datos delicados.</li>
+</ul>
+<p></p>
+<h1>Virtual hosts</h1>
+<p>Se usan para hospedar múltiples nombres de dominios en un único servidor físico (o granja de servidores). De esta manera se pueden compartir los recursos del servidor como la memoria o el procesador sin que sea necesario que todos los servicios tengan el mismo nombre de host. El término de<em> virtual hosting</em> se usa generalmente para referirse a servidores web pero sus funcionamiento se puede aplicar a otros servicios de Internet.</p>
+<p>Es importante no confundirlo con <a href="https://es.wikipedia.org/wiki/Servidor_virtual_privado" target="_blank" rel="noopener">servidores privados virtuales</a>.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
 </section>
 </div>
 <div id='bottomPagination'>
