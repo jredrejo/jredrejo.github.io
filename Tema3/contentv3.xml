@@ -69,7 +69,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -85,7 +85,7 @@
   <string role="key" value="_name"></string>
   <unicode value="Tema3"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="23"></int>
+  <int value="25"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="19"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -339,6 +339,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;TCP usa &lt;a href=&quot;https://es.wikipedia.org/wiki/Puerto_de_red&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;números de puertos&lt;/a&gt; para identificar las aplicaciones que envían y reciben en los dispositivos finales de una comunicación (o &lt;a href=&quot;https://es.wikipedia.org/wiki/Socket_de_Internet&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;socket&lt;/a&gt;). Cada lado de una conexión TCP tiene asociado un número de puerto configurado por 16 bits sin signo (0-65535) reservados por la aplicación que envía o que recibe los datos.&lt;/p&gt;
 &lt;p&gt;Los paquetes de datos TCP que llegan se identifican como pertenecientes a una conexión TCP por su socket, es decir, por la combinación de la dirección de origen, puerto de origen, dirección de destino y el puerto de destino. De este modo un servidor puede proporcionar datos a distintos clientes de forma simultánea siempre y cuando los clientes se preocupen de iniciar las conexiones simultáneas a un puerto de destino desde distintos puertos de origen.&lt;/p&gt;
@@ -380,7 +382,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="7"></reference>
              </dictionary>
             </instance>
            </list>
@@ -516,6 +518,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;img src=&quot;resources/img18.png&quot; alt=&quot;&quot; width=&quot;777&quot; height=&quot;350&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -539,7 +543,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="266"></int>
+                     <int value="268"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -553,7 +557,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="21_49_2.0"></unicode>
+                   <unicode value="21_49_2.2"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="11">
                     <dictionary>
@@ -564,7 +568,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="img18.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmp0nx7rT.eXe/previews/allyourbase/img18.png"></string>
+                     <string value="/tmp/tmpq4UHOm/img18.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="281fa3c4214f61bfb03a41c611b22023"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -593,7 +597,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="1"></int>
+              <int value="3"></int>
               <string role="key" value="parentNode"></string>
               <reference key="10"></reference>
              </dictionary>
@@ -620,6 +624,46 @@
            <string role="key" value="userResources"></string>
            <list>
             <reference key="11"></reference>
+            <instance class="exe.engine.resource.Resource" reference="21">
+             <dictionary>
+              <string role="key" value="_idevice"></string>
+              <reference key="8"></reference>
+              <string role="key" value="_package"></string>
+              <reference key="4"></reference>
+              <string role="key" value="_storageName"></string>
+              <string value="img18.png"></string>
+              <string role="key" value="_userName"></string>
+              <string value="/tmp/tmpq4UHOm/img18.png"></string>
+              <string role="key" value="checksum"></string>
+              <string value="281fa3c4214f61bfb03a41c611b22023"></string>
+              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="warningMsg"></string>
+              <string value=""></string>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.resource.Resource" reference="22">
+             <dictionary>
+              <string role="key" value="_idevice"></string>
+              <reference key="8"></reference>
+              <string role="key" value="_package"></string>
+              <reference key="4"></reference>
+              <string role="key" value="_storageName"></string>
+              <string value="img18.png"></string>
+              <string role="key" value="_userName"></string>
+              <string value="/tmp/tmpq4UHOm/img18.png"></string>
+              <string role="key" value="checksum"></string>
+              <string value="281fa3c4214f61bfb03a41c611b22023"></string>
+              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="warningMsg"></string>
+              <string value=""></string>
+             </dictionary>
+            </instance>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -733,6 +777,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h4&gt;Calcular direcciones posibles para IPv4&lt;/h4&gt;
 &lt;p&gt;Su limitación provocó el desarrollo de IPv6 en los 90s, que ha estado en uso comercial desde 2006.&lt;/p&gt;
@@ -954,7 +1000,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="14"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1003,12 +1049,176 @@
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="15">
+      <instance class="exe.engine.node.Node" reference="17">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Resolución y asignación de direcciones"></unicode>
         <string role="key" value="idevices"></string>
-        <list></list>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="15">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Resolución y asignación de direcciones"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_editionFolder"></string>
+           <string value="text/edition/"></string>
+           <string role="key" value="_editionResources"></string>
+           <list>
+            <string value="text.js"></string>
+           </list>
+           <string role="key" value="_exportFolder"></string>
+           <none></none>
+           <string role="key" value="_exportResources"></string>
+           <list></list>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="/home/jose/.exe/scripts/idevices/text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="16">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="48_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="15"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h1&gt;DNS&lt;/h1&gt;
+&lt;p&gt;En Internet se usa normalmente el nombre del host, como &lt;a href=&quot;http://www.example.com&quot;&gt;www.example.com&lt;/a&gt; , no su dirección IP que es lo que usan los interfaces de red y routers. El uso de nombres de dominio necesita de una traducción, que se llama &lt;em&gt;resolución&lt;/em&gt; (&lt;em&gt;resolving&lt;/em&gt;) para obtener las direcciones y viceversa. Es algo similar a buscar un número de teléfono en una agenda usando el nombre de la persona.&lt;/p&gt;
+&lt;p&gt;La traducción entre las direcciones y los nombres se hace mediante el DNS (Sistema de nombres de dominio) que es un sistema jerárquico y distribuido que permite delegar la búsqueda de los nombres a otros servidores de DNS.&lt;/p&gt;
+&lt;h3&gt;Servidores raíz&lt;/h3&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;h1&gt;DHCP&lt;/h1&gt;
+&lt;p&gt;DHCP (Dynamic Host Configuration Protocol) es un protocolo estándar que se usa en las redes IP para configurar de forma dinámica las direcciones IP y toda la información necesaria para el acceso a Internet. &lt;/p&gt;
+&lt;p&gt;DHCP permite que los ordenadores y otros dispositivos reciban una dirección IP automáticamente desde un servidor DHCP centralizado, con lo que se evita que el administrador de la red o el usuario tenga que configurar manualmente cada dispositivo.&lt;/p&gt;
+&lt;p&gt;Los servidores DHCP gestionan una base de datos de las direcciones IP disponibles, además de otros datos, como la ruta predeterminada, direcciones de servidores de DNS, etc. Mediante el protocolo DHCP se puede elegir configurar automáticamente algunos de estos datos y dejar otros para la configuración manual.&lt;/p&gt;
+&lt;p&gt;Normalmente las direcciones que se asignan son válidas durante un intervalo de tiempo limitado. Son los dispositivos los que tienen que renovar su dirección antes de que expire el intervalo y deben dejar de usar la dirección cuando haya expirado si no la han podido renovar.&lt;/p&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;h1&gt;NAT&lt;/h1&gt;
+&lt;p&gt;NAT (Network Address Translation) es un protocolo de red para IPv4 que permite que muchos dispositivos se conecten a la red pública de Internet usando la misma dirección IPv4. NAT se diseñó originalmente como un intento de conservar direcciones IPv4. NAT modifica la dirección IP de la cabecera IPv4 mientras el paquete está moviéndose por los routers de Internet. Esto tiene algunos inconvenientes y hace que se tenga que ser muy cuidadoso al implementarlo. En particular, todos los tipos de NAT rompen la idea original de que IP sea una conectividad punto a punto a través de internet y hace difícil que los sistemas detrás de un NAT puedan recibir conexiones entrantes. A causa de ello se han inventado sistemas y protocolos nuevos para solventar estos inconvenientes. Actualmente NAT está implementado como una característica fundamental en los routers que proporcionan los ISP para acceder a Internet en los hogares y oficinas.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h1&gt;VPN&lt;/h1&gt;
+&lt;p&gt;Una red privada virtual es una tecnología que permite una extensión segura de la red local sobre una red pública como Internet.&lt;/p&gt;
+&lt;p&gt;Permite que el ordenador envíe y reciba datos sobre redes compartidas o públicas como si fuera una red privada, con toda la funcionalidad, seguridad y políticas de gestión de la red privada. Esto se realiza estableciendo una conexión virtual punto a punto mediante el uso de a) conexiones dedicadas, b) cifrado o c) la combinación de ambos métodos.&lt;/p&gt;
+&lt;p&gt;La conexión VPN a través de Internet es técnicamente una unión de dos WAN (redes de área extensa) entre dos lugares, pero al usuario le parece como si fuera un enlace privado, de ahí el nombre.&lt;/p&gt;
+&lt;h2&gt;Tipos de VPN&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;VPN de acceso remoto&lt;/strong&gt;: Los usuarios se conectan con la empresa desde lugares remotos como sus domicilios, hoteles, etc. a través de Internet, con lo que conectan a la red local de la empresa. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VPN punto a  punto&lt;/strong&gt;: Se usa para conectar oficinas remotas con la sede central de la organizción. Hay un servidor VPN conectado permanentemente a Internet y acepta las conexiones de sitios autorizados estableciendo el tunel VPN.
+&lt;ul&gt;
+&lt;li&gt;Tunneling: consiste en encapsular un protocolo de red sobre otro para crear un túnel dentro de una red de computadoras. El túnel se define en los puntos extremos y se suele usar ssh para ello.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VPN sobre LAN&lt;/strong&gt;: Es una variante del acceso remoto pero se hace dentro de la misma red de la empresa en entornos delicados como sobre WIFI y para datos delicados.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="16"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="17"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="23"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="17"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
         <string role="key" value="_id"></string>
         <unicode value="17"></unicode>
         <string role="key" value="_package"></string>
@@ -1029,12 +1239,176 @@
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="16">
+      <instance class="exe.engine.node.Node" reference="20">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="IPv6"></unicode>
         <string role="key" value="idevices"></string>
-        <list></list>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="18">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="IPv6"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_editionFolder"></string>
+           <string value="text/edition/"></string>
+           <string role="key" value="_editionResources"></string>
+           <list>
+            <string value="text.js"></string>
+           </list>
+           <string role="key" value="_exportFolder"></string>
+           <none></none>
+           <string role="key" value="_exportResources"></string>
+           <list></list>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="/home/jose/.exe/scripts/idevices/text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="19">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="48_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="18"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://es.wikipedia.org/wiki/IPv6&quot;&gt;https://es.wikipedia.org/wiki/IPv6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Uno de los principales beneficios, si no el principal, del protocolo 6 de IP, con respecto a la versión 4, IPv4, es que el espacio de direcciones disponible es muchísimo mayor.&lt;/p&gt;
+&lt;p&gt;IPv6 tiene un espacio de direcciones de 128 bits que puede direccionar miles de millones de direcciones IP únicas , en lugar de los 32 bits que tienen la direcciones IPv4. Con este tamaño de direcciones, con IPv6 se puede asignar una dirección única a cada dispositivo que se conecta a Internet.&lt;/p&gt;
+&lt;h2&gt;Tipos de direcciones IPv6&lt;/h2&gt;
+&lt;p&gt;1. Direcciones Unicast: Una dirección unicast es un identificador para un dispositivo de red. Un paquete IPv6 que se envía a una dirección unicast es entregado al interfaz que se identifica con esa dirección.&lt;/p&gt;
+&lt;p&gt;2. Direcciones Multicast: Una dirección multicast es un identificador para un conjunto de interfaces que pueden pertenecer a distintos hosts. Un paquete IPv6 enviado a una dirección Muliticast es entregado a múltiples interfaces de red.&lt;/p&gt;
+&lt;p&gt;3. Direcciones Anycast: Una dirección Anycast es un identificador para un conjunto de interfaces que pueden pertenecer a distintos hosts. Un paquete IPv6 enviado a una dirección Muliticast es entregado a uno de los interfaces de red identificados por la dirección.&lt;/p&gt;
+&lt;h2&gt;Reglas de escritura de las direcciones IPv6&lt;/h2&gt;
+&lt;p&gt;Las direcciones IPv6 se escriben como ocho grupos de cuartetos hexadecimales separados por dos puntos.&lt;/p&gt;
+&lt;p&gt;Este es un ejemplo de una dirección IPv6 válida:&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;2001:cdba:0000:0000:0000:0000:3257:9652 &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Cualquier grupo de cuatro ceros en una dirección IPv6 se puede reducir a un sólo cero, o si están juntos se pueden omitir directamente. Por tanto, las siguientes direcciones IPv6 son válidas y significan lo mismo:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;2001:cdba:0000:0000:0000:0000:3257:9652&lt;br /&gt;2001:cdba:0:0:0:0:3257:9652&lt;br /&gt;2001:cdba::3257:9652&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Si se necesita escribir una URL con una dirección IPv6 hay que usar el siguiente formato:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;a href=&quot;http://[2001:cdba::3257:9652]/&quot;&gt;http://[2001:cdba:0000:0000:0000:0000:3257:9652]/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h2&gt;Reglas de escritura de las redes con IPv6&lt;/h2&gt;
+&lt;p&gt;Las redes IPv6 se escriben usando la notación CIDR (Classless Inter Domain Routing). Una red o subred que use el protolo IPv6 será un conjunto de direcciones IPv6 cuyo tamaño debe ser una potencia de dos. Los bits iniciales de la dirección IPv6 (que serán idénticos en todos los hosts de la red) forman el prefijo de red. El tamaño de los bits en el prefijo de red se indica con &lt;span&gt;/. por ejemplo,  2001:cdba:9abc:5678::/64 es la dirección de red 2001:cdba:9abc:5678. Esta red tendrá direcciones que van desde 2001:cdba:9abc:5678::  a 2001:cdba:9abc:5678:ffff:ffff:ffff:ffff . Igualmente, un host sólo se puede escribir como una red con un prefjio de 128-bits. De esta manera, IPv6 permite redes de un sólo host.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span&gt;DIrecciones especiales en IPv6&lt;/span&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;::/96 Son direcciones que empiezan con 96 ceros y son compatibles con el protocolo IPv4 , por ejemplo &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;::ffff:192.168.89.9 (también se puede escribir como ::ffff:c0a8:5909 )&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;::/128  es una dirección IPv6 con todo ceros y no signficica nada, se usa normalmente en algunas aplicaciones para indicar que es una IPv6&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;::1/128 Es la dirección de localhost, o loopback, cualquier mensaje enviado a esta dirección recibirá de vuelta el mismo mensaje. En  IPv4 era 127.0.0.1. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;2001:db8::/32 Es un prefijo que se usa para documentación. Si se encuentra una dirección de este tipo significa que es un ejemplo, no una dirección real.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;span&gt;fec0::/10 Indica una red local. Este prefijo indica que la dirección sólo es válida dentro de una organización, con lo que no es válida para Internet. No está recomendado su uso.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;fc00::/7 Unique Local Address (ULA). Esta direcciones se obtienen automáticamente y sólo son enrutadas dentro de sitios que tengan algún tipo de colaboración, como redes locales o de área extensa. Tienen un número de 40 bits pseudoaleatorio para reducir el riesgo de conflicto entre direcciones..&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;ff00::/8 Es el prefijo para las direcciones de multicast.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;span&gt;fe80::/10 Es un prefijo útil sólo para direcciones que estén en el mismo dispositivo físico&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="19"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <none></none>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="24"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="20"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
         <string role="key" value="_id"></string>
         <unicode value="18"></unicode>
         <string role="key" value="_package"></string>
@@ -1063,9 +1437,9 @@
    <unicode role="key" value="16"></unicode>
    <reference key="14"></reference>
    <unicode role="key" value="17"></unicode>
-   <reference key="15"></reference>
+   <reference key="17"></reference>
    <unicode role="key" value="18"></unicode>
-   <reference key="16"></reference>
+   <reference key="20"></reference>
    <unicode role="key" value="2"></unicode>
    <reference key="10"></reference>
   </dictionary>
@@ -1078,7 +1452,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="14"></reference>
+  <reference key="20"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -1937,6 +2311,8 @@
    <string role="key" value="281fa3c4214f61bfb03a41c611b22023"></string>
    <list>
     <reference key="11"></reference>
+    <reference key="21"></reference>
+    <reference key="22"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>

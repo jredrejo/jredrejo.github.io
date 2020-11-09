@@ -36,6 +36,48 @@
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">IPv6</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id24">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">IPv6</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta24_48_2" class="block iDevice_content">
+<div class="exe-text"><p><a href="https://es.wikipedia.org/wiki/IPv6">https://es.wikipedia.org/wiki/IPv6</a></p>
+<p>Uno de los principales beneficios, si no el principal, del protocolo 6 de IP, con respecto a la versión 4, IPv4, es que el espacio de direcciones disponible es muchísimo mayor.</p>
+<p>IPv6 tiene un espacio de direcciones de 128 bits que puede direccionar miles de millones de direcciones IP únicas , en lugar de los 32 bits que tienen la direcciones IPv4. Con este tamaño de direcciones, con IPv6 se puede asignar una dirección única a cada dispositivo que se conecta a Internet.</p>
+<h2>Tipos de direcciones IPv6</h2>
+<p>1. Direcciones Unicast: Una dirección unicast es un identificador para un dispositivo de red. Un paquete IPv6 que se envía a una dirección unicast es entregado al interfaz que se identifica con esa dirección.</p>
+<p>2. Direcciones Multicast: Una dirección multicast es un identificador para un conjunto de interfaces que pueden pertenecer a distintos hosts. Un paquete IPv6 enviado a una dirección Muliticast es entregado a múltiples interfaces de red.</p>
+<p>3. Direcciones Anycast: Una dirección Anycast es un identificador para un conjunto de interfaces que pueden pertenecer a distintos hosts. Un paquete IPv6 enviado a una dirección Muliticast es entregado a uno de los interfaces de red identificados por la dirección.</p>
+<h2>Reglas de escritura de las direcciones IPv6</h2>
+<p>Las direcciones IPv6 se escriben como ocho grupos de cuartetos hexadecimales separados por dos puntos.</p>
+<p>Este es un ejemplo de una dirección IPv6 válida:</p>
+<p><span>2001:cdba:0000:0000:0000:0000:3257:9652 </span></p>
+<p><span>Cualquier grupo de cuatro ceros en una dirección IPv6 se puede reducir a un sólo cero, o si están juntos se pueden omitir directamente. Por tanto, las siguientes direcciones IPv6 son válidas y significan lo mismo:</span></p>
+<p><span>2001:cdba:0000:0000:0000:0000:3257:9652<br />2001:cdba:0:0:0:0:3257:9652<br />2001:cdba::3257:9652</span></p>
+<p><span>Si se necesita escribir una URL con una dirección IPv6 hay que usar el siguiente formato:</span></p>
+<p><span><a href="http://[2001:cdba::3257:9652]/">http://[2001:cdba:0000:0000:0000:0000:3257:9652]/</a></span></p>
+<p></p>
+<h2>Reglas de escritura de las redes con IPv6</h2>
+<p>Las redes IPv6 se escriben usando la notación CIDR (Classless Inter Domain Routing). Una red o subred que use el protolo IPv6 será un conjunto de direcciones IPv6 cuyo tamaño debe ser una potencia de dos. Los bits iniciales de la dirección IPv6 (que serán idénticos en todos los hosts de la red) forman el prefijo de red. El tamaño de los bits en el prefijo de red se indica con <span>/. por ejemplo,  2001:cdba:9abc:5678::/64 es la dirección de red 2001:cdba:9abc:5678. Esta red tendrá direcciones que van desde 2001:cdba:9abc:5678::  a 2001:cdba:9abc:5678:ffff:ffff:ffff:ffff . Igualmente, un host sólo se puede escribir como una red con un prefjio de 128-bits. De esta manera, IPv6 permite redes de un sólo host.</span></p>
+<p><span></span></p>
+<h4><span>DIrecciones especiales en IPv6</span></h4>
+<ul>
+<li><span><span><span><span>::/96 Son direcciones que empiezan con 96 ceros y son compatibles con el protocolo IPv4 , por ejemplo </span></span></span></span>::ffff:192.168.89.9 (también se puede escribir como ::ffff:c0a8:5909 )</li>
+<li><span><span><span><span>::/128  es una dirección IPv6 con todo ceros y no signficica nada, se usa normalmente en algunas aplicaciones para indicar que es una IPv6</span></span></span></span></li>
+<li><span><span><span><span><span>::1/128 Es la dirección de localhost, o loopback, cualquier mensaje enviado a esta dirección recibirá de vuelta el mismo mensaje. En  IPv4 era 127.0.0.1. </span></span></span></span></span></li>
+<li><span>2001:db8::/32 Es un prefijo que se usa para documentación. Si se encuentra una dirección de este tipo significa que es un ejemplo, no una dirección real.</span></li>
+<li><span><span>fec0::/10 Indica una red local. Este prefijo indica que la dirección sólo es válida dentro de una organización, con lo que no es válida para Internet. No está recomendado su uso.</span></span></li>
+<li><span><span><span>fc00::/7 Unique Local Address (ULA). Esta direcciones se obtienen automáticamente y sólo son enrutadas dentro de sitios que tengan algún tipo de colaboración, como redes locales o de área extensa. Tienen un número de 40 bits pseudoaleatorio para reducir el riesgo de conflicto entre direcciones..</span></span></span></li>
+<li><span>ff00::/8 Es el prefijo para las direcciones de multicast.</span></li>
+<li><span><span>fe80::/10 Es un prefijo útil sólo para direcciones que estén en el mismo dispositivo físico</span></span></li>
+<li><span></span></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
 </section>
 </div>
 <div id='bottomPagination'>
